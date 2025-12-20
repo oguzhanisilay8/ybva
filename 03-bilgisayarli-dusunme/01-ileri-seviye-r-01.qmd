@@ -1,4 +1,4 @@
-jk# Kontrol yapıları 
+# Kontrol yapıları 
 
 Bu kısımda ileri seviye R kullanımına başlayacağız. Veri Analizi dersi kapsamında daha çok R ile veri analizi üzerine çalışmalar yapıldı. Bu kısımda ise R ile programlama adımlarını incelemeye başlayacağız.
 
@@ -138,7 +138,7 @@ digraph g {
 İlk olarak bir sayı belirleyelim:
 
 ```{r}
-sayi <- 15
+sayi <- 12
 ```
 
 İlk koşulu çalıştıralım:
