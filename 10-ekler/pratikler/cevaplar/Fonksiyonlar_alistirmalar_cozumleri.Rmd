@@ -1,7 +1,7 @@
 
 # Fonksiyonlar_Alistirmalar_Cozumleri
 
-##  Hazırlık (Test verileri)
+##  Hazirlik (Test verileri)
 ```{r}
 dna1 <- c("A","G","C","T","G")
 dna2 <- c("A","T","A","T","A","T")
@@ -12,11 +12,11 @@ dna5 <- c("A","G","X","T")
 dna_listesi <- list(dna1, dna2, dna3, dna4)
 
 ```
-## Düzey 1 – Basit
+## Düzey 1 - Basit
 
-### Alıştırma 1: kare_al(x)
+### Alistirma 1: kare_al(x)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``kare_al(4) = 16``
 
@@ -30,9 +30,9 @@ kare_al(4)   # 4'ün karesi hesaplanır
 
 ```
 
-### Alıştırma 2: dna_uzunluk(dna)
+### Alistirma 2: dna_uzunluk(dna)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``dna_uzunluk(dna1) = 5``
 
@@ -44,11 +44,11 @@ dna_uzunluk <- function(dna) {   # dna isminde bir vektör alır
 dna_uzunluk(dna1)  # dna1 kaç bazdan oluşuyor?
 ```
 
-## Düzey 2 – Orta
+## Düzey 2 - Orta
 
-### Alıştırma 3: gc_say(dna)
+### Alistirma 3: gc_say(dna)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``gc_say(dna1) =  3``
 
@@ -68,9 +68,9 @@ gc_say <- function(dna) {
 
 gc_say(dna1)
 ```
-### Alıştırma 4: gc_orani(dna)
+### Alistirma 4: gc_orani(dna)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``gc_orani(c("G","C","A","T")) = 0.5``
 
@@ -94,11 +94,11 @@ gc_orani <- function(dna) {
 gc_orani(c("G","C","A","T"))
 
 ```
-## Düzey 3 – Orta / İleri
+## Düzey 3 - Orta / İleri
 
-### Alıştırma 5: gc_durum(dna)
+### Alistirma 5: gc_durum(dna)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``gc_durum(dna3) = "GC-zengin" ``
 
@@ -125,11 +125,11 @@ gc_durum <- function(dna) {
 gc_durum(dna3)
 
 ```
-## Düzey 4 – Zor (girdi kontrolü)
+## Düzey 4 - Zor (girdi kontrolü)
 
-### Alıştırma 6: dna_kontrol(dna)
+### Alistirma 6: dna_kontrol(dna)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``dna_kontrol(dna1) =  "OK"``
 
@@ -159,9 +159,9 @@ dna_kontrol(dna1)
 
 ```
 
-### Alıştırma 7: dna_kalite(dna)
+### Alistirma 7: dna_kalite(dna)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``dna_kalite(dna4) =  "Belirsiz DNA"``
 
@@ -199,9 +199,9 @@ dna_kalite <- function(dna) {
 dna_kalite(dna4)
 ```
 
-### Alıştırma 8: liste_rapor(dna_listesi) 
+### Alistirma 8: liste_rapor(dna_listesi) 
 
-Beklenen çıktı (örnek format):
+Beklenen cikti (örnek format):
 
 liste_rapor(dna_listesi)
  1. DNA -> Normal DNA | GC: 0.6
@@ -248,9 +248,9 @@ liste_rapor <- function(dna_listesi) {
 
 liste_rapor(dna_listesi)
 ```
-### Alıştırma 9: dna_ozet(dna)
+### Alistirma 9: dna_ozet(dna)
 
-Beklenen çıktı:
+Beklenen cikti:
 
 ``dna_ozet(dna1) = "OK | Normal DNA | GC=0.6"``
 
