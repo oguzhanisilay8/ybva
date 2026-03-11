@@ -357,7 +357,7 @@ Metin birleştirmek için:
 paste()
 ```
 
-kullanabilirsin.
+kullanabilirsiniz.
 
 Örnek:
 
