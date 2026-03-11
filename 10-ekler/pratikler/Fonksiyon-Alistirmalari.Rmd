@@ -28,6 +28,7 @@ dna_listesi <- list(dna1, dna2, dna3, dna4)
 **Görev:**  
 Bir sayının karesini geri döndüren bir fonksiyon yazın.
 
+
 **Fonksiyon adı**
 
 ```
