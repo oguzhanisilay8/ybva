@@ -26,7 +26,7 @@ dna_listesi <- list(dna1, dna2, dna3, dna4)
 ## Alıştırma 1: Kare alan fonksiyon
 
 **Görev:**  
-Bir sayı alan ve sayının karesini döndüren bir fonksiyon yaz.
+Bir sayının karesini geri döndüren bir fonksiyon yaz.
 
 **Fonksiyon adı**
 
