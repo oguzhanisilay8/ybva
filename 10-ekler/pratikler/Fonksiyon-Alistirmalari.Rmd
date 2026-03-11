@@ -26,7 +26,7 @@ dna_listesi <- list(dna1, dna2, dna3, dna4)
 ## Alıştırma 1: Kare alan fonksiyon
 
 **Görev:**  
-Bir sayı alan ve sayının karesini döndüren bir fonksiyon yaz.
+Bir sayının karesini geri döndüren bir fonksiyon yazın.
 
 **Fonksiyon adı**
 
@@ -43,46 +43,24 @@ kare_al(4)
 
 **İpucu**
 
-Sonucu şu şekilde hesaplayabilirsin:
+Sonucu şu şekilde hesaplayabilirsiniz:
 
 ```
 sonuc <- x * x
 ```
 
-Sonra `return(sonuc)` ile sonucu döndür.
+Sonra `return(sonuc)` ile sonucu döndürünüz.
 
----
-
-## Alıştırma 2: DNA uzunluğu
-
-**Görev**
-
-Bir DNA dizisi alan ve dizinin uzunluğunu döndüren bir fonksiyon yaz.
-
-**Fonksiyon adı**
-
-```
-dna_uzunluk(dna)
-```
-
-**Beklenen çıktı**
-
-```
-dna_uzunluk(dna1)
-5
-```
-
-İpucu: `length()` fonksiyonunu kullanabilirsin.
 
 ---
 
 # Düzey 2 — Orta (for + if + sayaç)
 
-## Alıştırma 3: GC sayısını hesapla
+## Alıştırma 2: GC sayısını hesapla
 
 **Görev**
 
-DNA dizisindeki toplam **G** ve **C** sayısını döndüren bir fonksiyon yaz.
+DNA dizisindeki toplam **G** ve **C** sayısını döndüren bir fonksiyon yazın.
 
 **Fonksiyon adı**
 
@@ -92,9 +70,9 @@ gc_say(dna)
 
 **Kural**
 
-- for döngüsü kullan
-- if koşulu kullan
-- sayaç kullan
+- for döngüsü kullanın
+- if koşulu kullanın
+- sayaç kullanın
 
 **Beklenen çıktı**
 
@@ -105,7 +83,7 @@ gc_say(dna1)
 
 **İpucu**
 
-Sayaç oluştur:
+Sayaç oluşturun:
 
 ```
 GC_toplami <- 0
@@ -117,15 +95,15 @@ Döngü içinde:
 if (n == "G" || n == "C")
 ```
 
-ise sayacı artır.
+ise sayacı artırın.
 
 ---
 
-## Alıştırma 4: GC oranı
+## Alıştırma 3: GC oranı
 
 **Görev**
 
-GC sayısını bul ve DNA uzunluğuna bölerek GC oranını hesapla.
+GC sayısını bulun ve DNA uzunluğuna bölerek GC oranını hesaplayın.
 
 **Fonksiyon adı**
 
@@ -152,11 +130,11 @@ GC_toplami / length(dna)
 
 # Düzey 3 — Orta / İleri (Sınıflandırma)
 
-## Alıştırma 5: GC durumu sınıflandırma
+## Alıştırma 4: GC durumu sınıflandırma
 
 **Görev**
 
-GC oranına göre DNA dizisini sınıflandıran bir fonksiyon yaz.
+GC oranına göre DNA dizisini sınıflandıran bir fonksiyon yazın.
 
 **Fonksiyon adı**
 
@@ -178,17 +156,17 @@ gc_durum(dna3)
 
 **İpucu**
 
-Önce GC oranını hesapla, sonra `if/else` kullan.
+Önce GC oranını hesaplayın, sonra `if/else` kullanın.
 
 ---
 
 # Düzey 4 — Zor (Girdi kontrolü)
 
-## Alıştırma 6: DNA kontrolü
+## Alıştırma 5: DNA kontrolü
 
 **Görev**
 
-DNA dizisindeki karakterleri kontrol eden bir fonksiyon yaz.
+DNA dizisindeki karakterleri kontrol eden bir fonksiyon yazın.
 
 **Fonksiyon adı**
 
@@ -224,7 +202,7 @@ dna_kontrol(dna5)
 
 **İpucu**
 
-Döngü içinde her karakter için şunu kontrol et:
+Döngü içinde her karakter için şunu kontrol edin:
 
 Eğer
 
@@ -240,7 +218,7 @@ ise hata ver.
 
 **Görev**
 
-DNA dizisini kalite kontrol mantığıyla sınıflandıran bir fonksiyon yaz.
+DNA dizisini kalite kontrol mantığıyla sınıflandıran bir fonksiyon yazın.
 
 **Fonksiyon adı**
 
@@ -263,13 +241,13 @@ dna_kalite(dna4)
 
 **İpucu**
 
-Önce `"N"` var mı kontrol et.
+Önce `"N"` var mı kontrol edin.
 
 ```
 N_var_mi <- FALSE
 ```
 
-Sonra GC oranına göre karar ver.
+Sonra GC oranına göre karar verin.
 
 ---
 
@@ -277,7 +255,7 @@ Sonra GC oranına göre karar ver.
 
 **Görev**
 
-Bir DNA listesi alan ve her DNA için bir rapor yazdıran fonksiyon yaz.
+Bir DNA listesi alan ve her DNA için bir rapor yazdıran fonksiyon yazın.
 
 **Fonksiyon adı**
 
@@ -306,7 +284,7 @@ liste_rapor(dna_listesi)
 
 **İpucu**
 
-Sayaç kullanabilirsin:
+Sayaç kullanabilirsiniz:
 
 ```
 idx <- 1
@@ -318,7 +296,7 @@ ve metin yazdırmak için:
 paste()
 ```
 
-fonksiyonunu kullan.
+fonksiyonunu kullanın.
 
 ---
 
@@ -326,7 +304,7 @@ fonksiyonunu kullan.
 
 **Görev**
 
-Tek bir fonksiyonla DNA için kısa bir özet metni döndür.
+Tek bir fonksiyonla DNA için kısa bir özet metni döndürün.
 
 **Fonksiyon adı**
 
@@ -336,10 +314,10 @@ dna_ozet(dna)
 
 **İstenen**
 
-1. `dna_kontrol(dna)` çalıştır  
-2. hata varsa direkt sonucu döndür  
-3. değilse `dna_kalite(dna)` çalıştır  
-4. eğer `"Belirsiz DNA"` değilse GC oranını da ekle  
+1. `dna_kontrol(dna)` çalıştırın 
+2. hata varsa direkt sonucu döndürün  
+3. değilse `dna_kalite(dna)` çalıştırın  
+4. eğer `"Belirsiz DNA"` değilse GC oranını da ekleyiniz  
 
 **Beklenen çıktı**
 
@@ -357,7 +335,7 @@ Metin birleştirmek için:
 paste()
 ```
 
-kullanabilirsin.
+kullanabilirsiniz.
 
 Örnek:
 

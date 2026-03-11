@@ -44,33 +44,12 @@ kare_al(4)
 - Iceride hesap yapar
 - Sonucu `return()` ile disariya verir
 
----
-
-### Alistirma 2: `dna_uzunluk(dna)`
-
-**Beklenen cikti:** `dna_uzunluk(dna1) = 5`
-
-```{r}
-dna_uzunluk <- function(dna) {
-  # dna: A, T, G, C gibi bazlardan olusan vektor
-
-  uzunluk <- length(dna)
-  # length(): vektorde kac eleman oldugunu verir
-
-  return(uzunluk)
-}
-
-dna_uzunluk(dna1)
-```
-
-**Ne ogrendik?**
-- `length()` bir vektorun boyunu (eleman sayisini) verir.
 
 ---
 
 ## Duzey 2 — Orta (for + if + sayac)
 
-### Alistirma 3: `gc_say(dna)`
+### Alistirma 2: `gc_say(dna)`
 
 **Beklenen cikti:** `gc_say(dna1) = 3`
 
@@ -107,7 +86,7 @@ gc_say(dna1)
 
 ---
 
-### Alistirma 4: `gc_orani(dna)`
+### Alistirma 3: `gc_orani(dna)`
 
 **Beklenen cikti:** `gc_orani(c("G","C","A","T")) = 0.5`
 
@@ -138,7 +117,7 @@ gc_orani(c("G","C","A","T"))
 
 ## Duzey 3 — Orta / Ileri (Siniflandirma)
 
-### Alistirma 5: `gc_durum(dna)`
+### Alistirma 4: `gc_durum(dna)`
 
 **Beklenen cikti:** `gc_durum(dna3) = "GC-zengin"`
 
@@ -146,7 +125,7 @@ gc_orani(c("G","C","A","T"))
 gc_durum <- function(dna) {
 
   oran <- gc_orani(dna)
-  # burada tekrar dongu yazmak yerine gc_orani() fonksiyonunu cagirdik
+  # burada tekrar dongu yazmak yerine bir önceki alıştırmada oluşturduğumuz gc_orani() fonksiyonunu cagirdik
 
   if (oran > 0.5) {
     # oran 0.5'ten buyukse GC daha yuksek demektir
@@ -166,7 +145,7 @@ gc_durum(dna3)
 
 ## Duzey 4 — Zor (Girdi kontrolu + QC)
 
-### Alistirma 6: `dna_kontrol(dna)`
+### Alistirma 5: `dna_kontrol(dna)`
 
 **Beklenen cikti:**
 - `dna_kontrol(dna1) = "OK"`
@@ -207,7 +186,7 @@ dna_kontrol(dna1)
 
 ---
 
-### Alistirma 7: `dna_kalite(dna)`
+### Alistirma 6: `dna_kalite(dna)`
 
 **Beklenen cikti:** `dna_kalite(dna4) = "Belirsiz DNA"`
 
@@ -256,7 +235,7 @@ dna_kalite(dna4)
 
 ---
 
-### Alistirma 8: `liste_rapor(dna_listesi)`
+### Alistirma 7: `liste_rapor(dna_listesi)`
 
 Bu fonksiyon, listedeki her DNA icin sirayla rapor yazdirir.
 
@@ -316,7 +295,7 @@ liste_rapor(dna_listesi)
 
 ---
 
-### Alistirma 9: `dna_ozet(dna)`
+### Alistirma 8: `dna_ozet(dna)`
 
 Tek bir DNA icin ozet metin dondurur.
 
